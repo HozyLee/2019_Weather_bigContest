@@ -583,8 +583,7 @@ weather_rev.fillna(str(0), inplace = True)
 import requests
 import xml.etree.ElementTree as elemTree
 
-api_key = 'zY5073ZkEHCMAZGg7oguzfSTGFrlpUfssSLSEvxrHGmcDFLDkGuVDxRTgINnXYdNmapAXRWhyw8Y5s5qz9Uw9Q%3D%3D'
-
+api_key = 
 url_format = 'http://apis.data.go.kr/B090041/openapi/service/SpcdeInfoService/getRestDeInfo?solYear={year}&solMonth={month}&ServiceKey={api_key}'
 
 year_list = ['2016', '2017', '2018']

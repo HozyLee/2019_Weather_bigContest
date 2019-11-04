@@ -40,7 +40,7 @@ import urllib
 import requests
 import json
 
-apikey = '4423136A-449B-3CB8-A995-2A451DB68DDF'
+apikey = 'masking'
 apiurl = 'http://api.vworld.kr/req/address?service=address&request=getCoord&key='+apikey+'&'
 
 address_dict = {}
@@ -134,7 +134,7 @@ import requests
 import json
 
 
-apikey = '4423136A-449B-3CB8-A995-2A451DB68DDF'
+apikey = 'masking'
 apiurl = 'http://api.vworld.kr/req/address?service=address&request=getCoord&key='+apikey+'&'
 
 
